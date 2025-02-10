@@ -651,6 +651,7 @@ if CUSTOM_NAME:
                         shutil.copyfileobj(r.raw, f)
 
             WEBUI_NAME = data["name"]
+        WEBUI_NAME = "G&W Chat Tool"
     except Exception as e:
         log.exception(e)
         WEBUI_NAME = "G&W Chat Tool"
