@@ -653,6 +653,7 @@ if CUSTOM_NAME:
             WEBUI_NAME = data["name"]
     except Exception as e:
         log.exception(e)
+        WEBUI_NAME = "G&W Chat Tool"
         pass
 
 
